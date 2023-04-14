@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Достопримечательности</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+  <body>
+    <div class="conteiner">
+        <div class="header">
+          <a class="logo" href="index.html" target="_blank" title="Главная страница">
+            <img src="img/logo.svg" alt="логотип">
+        </a>
+            <ul class="menu">
+                <li class="menu__list"><a class="menu__link " href="index.html">Главная</a></li>
+                <li class="menu__list"><a class="menu__link" href="students.html">Студенты</a></li>
+                <li class="menu__list"><a class="menu__link" href="about.html">О курсе</a></li>
+                <li class="menu__list"><a class="menu__link menu__link_active" href="contacts.html">Контакты</a></li>
+            </ul>
+            <button class="btn">Войти</button>
+        </div>
+        <div class="packing">
+          <div>
+              <h2 class="title-pond">Комсомольский пруд</h2>
+              <div class="window">
+                <h3 class="go_site">Войти на сайт</h3>
+                <div class="login">
+                    <input class="input" type="email" placeholder="Логин">
+                </div>
+                   
+                <div class="password">
+                    <input class="input" type="password" placeholder="Пароль">
+                </div>
+                <div class="enter">
+                    <a class="button" href="#">Войти</a>
+                </div>
+            </div>
+              <p class="pond">
+                  Комсомольский пруд был образован в 1703 году при строительстве плотины для железоделательных заводов. Несколько раз его пытались благоустроить и проводили реконструкции. Сегодня пруд украшает комплекс фонтанов и небольшой островок зелени. Вокруг водоема организована зона для отдыха со скамейками. Со стороны Петровского спуска возвышается Памятник 300-летию Липецка в виде позолоченного корабля.
+              </p>
+          </div<>
+        </div>
+          <div class="lightness">
+              <img class="pictures" src="img/komsomolsky-pond.jpg" alt="комсомольский пруд">
+          </div>
+            <div>
+              <h2 class="title-pond">Павильон минеральных вод</h2>
+            <p class="pond">
+              Новый павильон липецких минеральных вод, или Липецкий бювет, открылся в Нижнем парке в июле 2020 года. Сооружение полностью повторяет облик старого павильона, утраченного в советские годы.Внутри посетителей встречает статуя Петра Великого — по легенде именно император впервые обратил внимание на свойства липецкой воды. В бювете все желающие могут бесплатно набрать минеральной воды из четырех фонтанчиков. 
+            </p>
+            </div>
+            <div class="lightness">
+              <img class="pictures" src="img/mineral.jpg" alt="бювет">
+            </div>
+              <div>
+                  <h2 class="title-pond">Драматический театр</h2>
+                    <p class="pond">
+                     Липецкий драматический театр специализируется на спектаклях по мотивам классических произведений отечественных и зарубежных писателей. Его репертуар включает драмы и комедии, детские произведения. Это единственный в России театр,который носит имя Льва Николаевича Толстого. При театре работает музей, где можно узнать историю учреждения,посмотреть документальные снимки и портреты известных артистов, режиссеров, сотрудников.
+                     </p>
+             </div>
+                  <div class="lightness">
+                 <img class="pictures" src="img/theatre.jpg" alt="театр">
+                 </div>
+                 <div>
+                  <h2 class="title-pond">парк Победы</h2>
+                       <p class="pond">
+                     Парк Победы создавался в 70-х годах, когда в Октябрьском округе еще не было многоэтажных домов. К высадке деревьев привлекали ветеранов, школьников и молодежь, поэтому парк по праву можно считать народным.Сегодня Парк Победы — любимое место для отдыха у липчан, на территории разбиты Аллея мира, Аллея героев и аллея Матерей, создана выставка военной техники под открытым небом, заложена «Капсула времени» с посланием в 2045 год, работает светомузыкальный пешеходный фонтан и аттракционы.
+            </p>
+            </div>
+            <div class="lightness">
+            <img class="pictures" src="img/victory-park.jpg" alt="парк Победы">
+            </div>
+          <div>
+              <h2 class="title-pond">Памятник основателям</h2>
+                <p class="pond">
+                  Памятник основателям Липецка появился на площади Плеханова в июле 2008 года. Монумент представляет собой 17-метровую колонну, которую венчает венок и фигура ангела-хранителя. Вокруг колонны, на постаменте, установлены скульптуры кузнеца, литейщика, чиновника, военного инженера и корабельных дел мастера — все они представители Петровской эпохи, вложившие немало сил в становление города.
+              </p>
+          </div>
+              <div class="lightness">
+              <img class="pictures" src="img/founders.jpg" alt="основатели">
+              </div>
+        </div>
+    </div>
+    <div class="footer">
+      <p class="year">
+          2023 &copy; <a class="centre" href="#">учебный центр</a>
+      </p>
+  </div>
+  <script>
+    const btnEl = document.querySelector('.btn')
+    const windowEl = document.querySelector('.window')
+         btnEl.addEventListener('click', function (e) {windowEl.classList.toggle('visible');});
+</script>
+  </body>
+</html>
+
+    
